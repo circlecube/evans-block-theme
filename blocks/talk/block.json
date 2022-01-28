@@ -1,0 +1,67 @@
+{
+    "apiVersion": 2,
+    "title": "Talk",
+    "description": "Block for WordCamp speaking experience",
+    "text-domain": "evans-block-theme",
+    "name": "evans-block-theme/talk",
+    "icon": "megaphone",
+    "category": "evans-block-theme",
+    "attributes": {
+        "label": {
+            "type": "string"
+        },
+        "headline": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "talk_link": {
+            "type": "object",
+            "default": {
+                "title": "Talk",
+                "url": null
+            }
+        },
+        "slide_link": {
+            "type": "object",
+            "default": {
+                "title": "Slides",
+                "url": null
+            }
+        },
+        "video_link": {
+            "type": "object",
+            "default": {
+                "title": "Video",
+                "url": null
+            }
+        },
+        "image": {
+            "type": "object",
+            "default": {
+                "id": null,
+                "url": null
+            }
+        }
+    },
+    "supports": {
+        "html": false
+    },
+    "example": {
+        "attributes": {
+            "headline": "A Talk Title",
+            "label": "WordCamp Anywhere 2020",
+            "description": "A short description of the talk.",
+            "slide_link": {
+                "title": "Slides",
+                "url": "https://slideshare.net/"
+            },
+            "image": {
+                "url": "https://s.w.org/images/core/5.3/MtBlanc1.jpg"
+            }
+        }
+    },
+    "editorScript": "file:../../build/editor-scripts.js",
+    "editorStyle": "file:../../build/editor-styles.css"
+}

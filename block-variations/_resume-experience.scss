@@ -1,0 +1,17 @@
+.resume-experience-block {
+	border-bottom: 1px solid #ddd;
+	margin: 1rem 0;
+	padding: 1rem;
+	transition: background-color .3s ease;
+
+	&:hover,
+	&:focus{
+		background: #f7f7f7;
+		border-bottom-color: #aaa;
+	}
+
+
+	.job_title {
+		margin-top: 1.575rem;
+	}
+}

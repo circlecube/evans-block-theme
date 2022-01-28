@@ -1,0 +1,165 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+.resume-experience-block {
+  border-bottom: 1px solid #ddd;
+  margin: 1rem 0;
+  padding: 1rem;
+  transition: background-color 0.3s ease;
+}
+.resume-experience-block:hover, .resume-experience-block:focus {
+  background: #f7f7f7;
+  border-bottom-color: #aaa;
+}
+.resume-experience-block .job_title {
+  margin-top: 1.575rem;
+}
+
+.is-style-resume_skills {
+  list-style: none;
+  padding: 0;
+}
+.is-style-resume_skills li {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10% 1rem;
+}
+.is-style-resume_skills li strong {
+  font-weight: normal;
+  order: 0;
+}
+.is-style-resume_skills li:before {
+  border-bottom: dotted 2px #ccc;
+  content: "";
+  display: block;
+  margin: 0 1rem;
+  order: 1;
+  width: 100%;
+}
+.is-style-resume_skills li em {
+  font-style: normal;
+  order: 2;
+}
+
+.block-talk {
+  border: 2px solid #ddd;
+  margin-top: 2rem;
+}
+.block-talk:hover .block-talk__inner {
+  background-color: #eee;
+}
+
+.block-talk__inner {
+  background: #fff;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px 40px 20px 20px;
+  position: relative;
+  transition: background-color 0.2s ease;
+}
+@media (max-width: 640px) {
+  .block-talk__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.block-talk__label {
+  background-color: #cd2653;
+  color: #fff;
+  font-weight: bold;
+  left: 20px;
+  margin-bottom: 0;
+  padding: 17px 20px;
+  position: absolute;
+  text-transform: uppercase;
+  top: -25px;
+  width: auto;
+}
+
+.block-talk__inner h2.block-talk__title {
+  margin-top: 2.25rem;
+}
+
+.block-talk__links label {
+  align-items: baseline;
+  display: flex;
+}
+.block-talk__links label > em {
+  min-width: 10%;
+  opacity: 0.5;
+}
+
+.block-talk__image-wrap {
+  position: relative;
+  margin: 2rem 2rem 0 0;
+  text-align: center;
+}
+@media (max-width: 640px) {
+  .block-talk__image-wrap {
+    margin: 2rem auto 0;
+  }
+}
+
+.block-talk__image {
+  background-color: #99cc33;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 150px;
+  height: 100%;
+  line-height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  max-height: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  min-width: 200px;
+  width: 100%;
+}
+
+.block-talk__image-replace,
+.block-talk__image-remove {
+  bottom: 2px;
+  position: absolute;
+  right: 2px;
+}
+
+.block-talk__image-replace {
+  right: 2.4rem;
+}
+
+.block-skills {
+  list-style: none;
+  padding: 0;
+}
+.block-skills li {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10% 1rem;
+}
+.block-skills li strong {
+  font-weight: normal;
+  order: 0;
+  padding: 0 1rem 0 0;
+  white-space: nowrap !important;
+}
+.block-skills li:before {
+  border-bottom: dotted 2px #ccc;
+  content: "";
+  display: block;
+  margin: 0 1rem;
+  order: 1;
+  width: 100%;
+}
+.block-skills li em {
+  font-style: normal;
+  order: 2;
+  padding: 0 0 0 1rem;
+  white-space: nowrap !important;
+}
+
+/*# sourceMappingURL=editor-styles.css.map*/

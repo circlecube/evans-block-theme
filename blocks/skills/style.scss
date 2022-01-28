@@ -1,0 +1,34 @@
+.block-skills {
+	list-style: none;
+	padding: 0;
+
+	li {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		margin: 0 10% 1rem;
+
+		strong {
+			font-weight: normal;
+			order: 0;
+            padding: 0 1rem 0 0;
+            white-space: nowrap !important;
+		}
+		
+		&:before {
+			border-bottom: dotted 2px #ccc;
+			content: '';
+			display: block;
+			margin: 0 1rem;
+			order: 1;
+			width: 100%;
+		}
+
+		em {
+			font-style: normal;
+			order: 2;
+            padding: 0 0 0 1rem;
+            white-space: nowrap !important;
+		}
+	}
+}
