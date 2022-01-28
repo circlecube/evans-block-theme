@@ -1,17 +1,18 @@
 /*
-Theme Name: Evan's Block Theme
-Theme URI: https://evanmullins.com/
-Author: Evan Mullins
-Author URI: https://evanmullins.com/
-Description: My own block theme for my own site!
-Tags: full-site-editing, blog
-Version: 1.0.0
-Requires at least: 5.0
-Tested up to: 5.8
-Requires PHP: 7.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: evans-block-theme
+Theme Name:        Evan's Block Theme
+Theme URI:         https://evanmullins.com/
+GitHub Theme URI:  https://github.com/circlecube/evans-block-theme
+Author:            Evan Mullins
+Author URI:        https://evanmullins.com/
+Description:       My own block theme for my own site!
+Tags:              full-site-editing, blog
+Version:           1.0.0
+Requires at least: 5.9
+Tested up to:      5.9
+Requires PHP:      7.0
+License:           GNU General Public License v2 or later
+License URI:       http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:       evans-block-theme
  
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
