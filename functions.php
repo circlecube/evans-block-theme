@@ -99,7 +99,7 @@ add_filter( 'block_categories_all', 'evans_block_theme_add_new_block_category', 
 register_block_style(
     'core/list',
     array(
-        'name'         => 'resume_skills',
+        'name'         => 'resume-skills',
         'label'        => __( 'Resume Skills', 'evans-block-theme' )
     )
 );

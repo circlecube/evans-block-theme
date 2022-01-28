@@ -44,26 +44,26 @@ $allowed_html = array(
     id="<?php echo sanitize_title($label); ?>"
     class="block-talk <?php echo esc_attr( $className ); ?>"
 >
-	<div class="block-talk__inner">
+	<div class="block-talk-inner">
 		<?php if ( ! empty( $label ) ) : ?>
-			<span class="block-talk__label">
+			<span class="block-talk-label">
 				<?php echo esc_html( $label ); ?>
 			</span>
 		<?php endif; ?>
 
 
-        <div class="block-talk__content">
+        <div class="block-talk-content">
             <?php if ( ! empty( $headline ) ) : ?>
-                <h2 class="block-talk__title">
+                <h2 class="block-talk-title">
                     <?php echo esc_html( $headline ); ?>
                 </h2>
             <?php endif; ?>
             <?php if ( ! empty( $description ) ) : ?>
-                <div class="block-talk__desc">
+                <div class="block-talk-desc">
                     <p><?php echo wp_kses( $description, $allowed_html ); ?></p>
                 </div>
             <?php endif; ?>
-            <div class="block-talk__links">
+            <div class="block-talk-links">
                 <div role="group" class="components-button-group">
                     <?php if ( ! empty( $talk_link ) ) : ?>
                         <a 
@@ -102,14 +102,14 @@ $allowed_html = array(
             </div>
         </div>
 
-        <div class="block-talk__image-wrap">
+        <div class="block-talk-image-wrap">
             <?php if ( ! empty( $image ) ) : ?>
                 <img
-                    class="block-talk__image" 
+                    class="block-talk-image" 
                     src="<?php echo esc_url($image); ?>"
                 />
             <?php else: ?>
-                <span class="block-talk__image dashicon dashicons dashicons-megaphone"></span>
+                <span class="block-talk-image dashicon dashicons dashicons-megaphone"></span>
             <?php endif; ?>
         </div>
 

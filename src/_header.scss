@@ -1,20 +1,19 @@
-@import 'search';
-
+@import "search";
 
 .wp-block-site-title {
-    margin-bottom: 0;
+	margin-bottom: 0;
 
-    a {
-        color: #111;
+	a {
+		color: #111;
 
-        &:hover {
-            color: #1982d1;
-        }
-    }
+		&:hover {
+			color: #1982d1;
+		}
+	}
 }
 
 .wp-block-site-tagline {
-    color: #999;
-    letter-spacing: .05em;
-    margin-top: 0;
+	color: #999;
+	letter-spacing: 0.05em;
+	margin-top: 0;
 }

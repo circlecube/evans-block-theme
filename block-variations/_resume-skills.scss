@@ -1,4 +1,4 @@
-.is-style-resume_skills {
+.is-style-resume-skills {
 	list-style: none;
 	padding: 0;
 
@@ -9,13 +9,13 @@
 		margin: 0 10% 1rem;
 
 		strong {
-			font-weight: normal;
+			font-weight: 400;
 			order: 0;
 		}
-		
-		&:before {
+
+		&::before {
 			border-bottom: dotted 2px #ccc;
-			content: '';
+			content: "";
 			display: block;
 			margin: 0 1rem;
 			order: 1;

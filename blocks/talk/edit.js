@@ -50,7 +50,7 @@ const Edit = ( { isSelected, attributes, setAttributes } ) => {
 	return (
 		<>
 			<div {...blockProps}>
-				<div className='block-talk__inner'>
+				<div className='block-talk-inner'>
 				  { (isSelected || label) && (
 					  <RichText
 						  placeholder={ __( 'Label text', 'evans-block-theme' ) }
@@ -58,21 +58,21 @@ const Edit = ( { isSelected, attributes, setAttributes } ) => {
 						  onChange={ (value) => { setAttributes( { label: value } ) } }
 						  tagName="span"
 						  allowedFormats={[]}
-						  className="block-talk__label"
+						  className="block-talk-label"
 					  />
 				  ) }
 
-                  <div class="block-talk__content">
+                  <div class="block-talk-content">
 				  <RichText
 						placeholder={ __( 'Talk title', 'evans-block-theme' ) }
 						value={headline}
 						onChange={ (value) => { setAttributes( { headline: value } ) } }
 						tagName="h2"
 						allowedFormats={[]}
-						className={`block-talk__title`}
+						className={`block-talk-title`}
 					/>
 				  { (isSelected || description) && (
-					  <div className="block-talk__desc">
+					  <div className="block-talk-desc">
 						<RichText
 							placeholder={ __( 'Talk Description', 'evans-block-theme' ) }
 							value={description}
@@ -84,7 +84,7 @@ const Edit = ( { isSelected, attributes, setAttributes } ) => {
 				  ) }
 
 				  { (isSelected) && (
-					    <div className="block-talk__links">
+					    <div className="block-talk-links">
                             <label>
                                 <em>Talk:</em>
                                 <LinkControl
@@ -112,7 +112,7 @@ const Edit = ( { isSelected, attributes, setAttributes } ) => {
 				        </div>
 				  ) }
 				  { (!isSelected) && (
-					  <div className="block-talk__links">
+					  <div className="block-talk-links">
                         <ButtonGroup>
                             { ( talk_link.url && 
                                 <Button
@@ -140,15 +140,15 @@ const Edit = ( { isSelected, attributes, setAttributes } ) => {
 				  ) }
 
                 </div>
-                <div className="block-talk__image-wrap">
+                <div className="block-talk-image-wrap">
                     { (!isSelected && image.url ) && (
-                      <img src={image.url} className="block-talk__image" />
+                      <img src={image.url} className="block-talk-image" />
                   ) }
 				  { (!isSelected && !image.url ) && (
                       <Icon 
                         icon="megaphone"
                         size="200"
-                        className="block-talk__image"
+                        className="block-talk-image"
                       />
                   ) }
                   { (isSelected) && (
@@ -164,7 +164,7 @@ const Edit = ( { isSelected, attributes, setAttributes } ) => {
                                     icon={!image.id ? "format-image" : ""}
                                     title={!image.id ? __("Set Image", 'evans-block-theme') : __("Image Preview", 'evans-block-theme') }
                                 >
-                                    {!image.id ? __("Set Image", 'evans-block-theme') : <img src={image.url} className="block-talk__image" />}
+                                    {!image.id ? __("Set Image", 'evans-block-theme') : <img src={image.url} className="block-talk-image" />}
                                 </Button>
                             )}
                         />
@@ -179,7 +179,7 @@ const Edit = ( { isSelected, attributes, setAttributes } ) => {
                                 onSelect={onSelectImage}
                                 render={({ open }) => (
                                     <Button isDefault isLarge
-                                        className="block-talk__image-replace"
+                                        className="block-talk-image-replace"
                                         onClick={open}
                                         icon="edit"
                                         title={ __("Replace Image", 'evans-block-theme') }
@@ -187,7 +187,7 @@ const Edit = ( { isSelected, attributes, setAttributes } ) => {
                                 )}
                             />
                             <Button isLarge isDestructive
-                                className="block-talk__image-remove"
+                                className="block-talk-image-remove"
                                 onClick={removeMedia}
                                 icon="trash"
                                 title={__('Remove image', 'evans-block-theme')}

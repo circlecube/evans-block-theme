@@ -1,53 +1,54 @@
 .wp-block-rss {
 
 	li {
-        line-height: 1.1;
-		margin-bottom: .5rem;
-        transition: background-color .2s ease;
+		line-height: 1.1;
+		margin-bottom: 0.5rem;
+		transition: background-color 0.2s ease;
 
-        &:hover {
-            background-color: #f7f7f7;
-        }
+		&:hover {
+			background-color: #f7f7f7;
+		}
 	}
 
 }
 
 .wp-block-rss__item-publish-date {
-    color: #999;
-    font-style: italic;
+	color: #999;
+	font-style: italic;
 }
 
 .wp-block-social-links {
 
-    li.custom a {
-        background-position: center center;
-        background-size: cover;
-        border-radius: 50%;
-        height: 36px;
-        width: 36px;
+	li.custom a {
+		background-position: center center;
+		background-size: cover;
+		border-radius: 50%;
+		height: 36px;
+		width: 36px;
 
-        svg {
-            display: none;
-        }
-    }
+		svg {
+			display: none;
+		}
+	}
 
-    li.circlecube a {
-        background-image: url(https://i2.wp.com/circlecube.com/wp-content/uploads/2016/10/cropped-circlecube-bug.png?fit=36%2C32&ssl=1);
-    }
+	li.circlecube a {
+		background-image: url(https://i2.wp.com/circlecube.com/wp-content/uploads/2016/10/cropped-circlecube-bug.png?fit=36%2C32&ssl=1);
+	}
 
-    li.nomaderwhere a {
-        background-image: url(https://i1.wp.com/nomaderwhere.com/wp-content/uploads/sites/11/2019/03/cropped-nomaderwhere-icon-1.png?fit=36%2C250&ssl=1);
-    }
+	li.nomaderwhere a {
+		background-image: url(https://i1.wp.com/nomaderwhere.com/wp-content/uploads/sites/11/2019/03/cropped-nomaderwhere-icon-1.png?fit=36%2C250&ssl=1);
+	}
 
-    li.wasmormon a {
-        background-image: url(https://i1.wp.com/wasmormon.org/wp-content/uploads/sites/12/2019/03/cropped-wasmormon-icon-1.png?fit=36%2C190&ssl=1);
-    }
+	li.wasmormon a {
+		background-image: url(https://i1.wp.com/wasmormon.org/wp-content/uploads/sites/12/2019/03/cropped-wasmormon-icon-1.png?fit=36%2C190&ssl=1);
+	}
 
-    li.itunes a {
-        background-image: url(https://www.apple.com/favicon.ico);
-    }
+	li.itunes a {
+		background-image: url(https://www.apple.com/favicon.ico);
+	}
 
-    li.wp-social-link-lastfm a {
-        padding: .35em 0.25em 0.25em 0.35em; 
-    }
+	li.wp-social-link-lastfm a {
+		padding: 0.35em 0.25em 0.25em 0.35em;
+	}
+
 }
