@@ -142,12 +142,13 @@ const Edit = ( { isSelected, attributes, setAttributes } ) => {
 						) }
 						{ ! isSelected && (
 							<div className="block-talk-links">
-								<ButtonGroup>
+								<ButtonGroup className="block-talk-button-group">
 									{ talk_link.url && (
 										<Button
 											href={ talk_link.url }
 											variant="primary"
 											icon="tickets"
+											className="block-talk-button"
 										>
 											{ talk_link.title }
 										</Button>
@@ -157,6 +158,7 @@ const Edit = ( { isSelected, attributes, setAttributes } ) => {
 											href={ slide_link.url }
 											variant="primary"
 											icon="slides"
+											className="block-talk-button"
 										>
 											{ slide_link.title }
 										</Button>
@@ -166,9 +168,10 @@ const Edit = ( { isSelected, attributes, setAttributes } ) => {
 											href={ video_link.url }
 											variant="primary"
 											icon="video-alt"
+											className="block-talk-button"
 										>
 											{ video_link.title }
-										</Button>
+										</Button>		
 									) }
 								</ButtonGroup>
 							</div>

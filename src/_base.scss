@@ -1,5 +1,5 @@
 body {
-	background: #39c;
+	background: var(--wp--preset--gradient--cool-to-warm-spectrum);
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -19,12 +19,12 @@ ul {
 }
 
 a {
-	color: #1982d1;
+	color: var(--wp--preset--color--vivid-cyan-blue);
 	text-decoration: none;
 	transition: all 0.2s ease;
 
 	&:hover {
-		color: #1982d1;
+		color: var(--wp--preset--color--dark-cyan-blue);
 		text-decoration: underline;
 	}
 }

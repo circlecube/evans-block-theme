@@ -16,14 +16,29 @@
                     "name": "White"
                 },
                 {
-                    "slug": "blue",
-                    "color": "#0073AA",
-                    "name": "WordPress blue"
+                    "slug": "off-white",
+                    "color": "#f7f7f7",
+                    "name": "Off White"
                 },
                 {
-                    "slug": "dark-grey",
+                    "slug": "dark-gray",
                     "color": "#23282D",
-                    "name": "Dark grey"
+                    "name": "Dark Gray"
+                },
+                {
+                    "slug": "mid-gray",
+                    "color": "#999999",
+                    "name": "Mid Gray"
+                },
+                {
+                    "slug": "light-gray",
+                    "color": "#b9b9b9",
+                    "name": "Light Gray"
+                },
+                {
+                    "slug": "dark-cyan-blue",
+                    "color": "#0978b7",
+                    "name": "Dark Cyan Blue"
                 }
             ]
         },

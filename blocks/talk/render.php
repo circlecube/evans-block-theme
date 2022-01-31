@@ -64,10 +64,10 @@ $allowed_html = array(
                 </div>
             <?php endif; ?>
             <div class="block-talk-links">
-                <div role="group" class="components-button-group">
+                <div role="group" class="block-talk-button-group">
                     <?php if ( ! empty( $talk_link ) ) : ?>
                         <a 
-                            class="components-button is-primary has-text has-icon"
+                            class="block-talk-button is-primary has-text has-icon"
                             href="<?php echo esc_url($talk_link['url']); ?>"
                             title="View Talk Details"
                             target="_blank"
@@ -78,7 +78,7 @@ $allowed_html = array(
                     <?php endif; ?>
                     <?php if ( ! empty( $slide_link ) ) : ?>
                         <a 
-                            class="components-button is-primary has-text has-icon"
+                            class="block-talk-button is-primary has-text has-icon"
                             href="<?php echo esc_url($slide_link['url']); ?>"
                             title="View Talk Slides"
                             target="_blank"
@@ -89,7 +89,7 @@ $allowed_html = array(
                     <?php endif; ?>
                     <?php if ( ! empty( $video_link ) ) : ?>
                         <a 
-                            class="components-button is-primary has-text has-icon"
+                            class="block-talk-button is-primary has-text has-icon"
                             href="<?php echo esc_url($video_link['url']); ?>"
                             title="View Talk Recording"
                             target="_blank"

@@ -4,16 +4,70 @@
 	margin-bottom: 0;
 
 	a {
-		color: #111;
+		color: var(--wp--preset--color--dark-grey);
+		position: relative;
+		text-decoration: none;
 
-		&:hover {
-			color: #1982d1;
+		&::after {
+			background: var(--wp--preset--color--white);
+			bottom: 0;
+			content: "";
+			height: 3px;
+			left: 0;
+			position: absolute;
+			transition: all 0.2s ease;
+			width: 1%;
+		}
+
+		&:hover { 
+			&::after {
+				background: var(--wp--preset--color--pale-cyan-blue);
+				width: 100%;
+			}
 		}
 	}
 }
 
 .wp-block-site-tagline {
-	color: #999;
+	background-color: var(--wp--preset--gradient--cool-to-warm-spectrum);
+	color: var(--wp--preset--color--dark-grey);
 	letter-spacing: 0.05em;
 	margin-top: 0;
+}
+
+.wp-block-navigation {
+
+	.wp-block-navigation-item__content {
+		padding-bottom: 3px;
+		position: relative;
+		text-decoration: none;
+
+		&::after {
+			background: var(--wp--preset--color--white);
+			bottom: 0;
+			content: "";
+			height: 3px;
+			left: 0;
+			position: absolute;
+			transition: all 0.2s ease;
+			width: 1%;
+		}
+
+		&:hover {
+			&::after {
+				background: var(--wp--preset--color--pale-cyan-blue);
+				width: 100%;
+			}
+		}
+
+		&[aria-current="page"]{
+			cursor: default;
+			
+			&::after {
+				background: var(--wp--preset--color--vivid-purple);
+				width: 100%;
+			}
+		}
+
+	}
 }

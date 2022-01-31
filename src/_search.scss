@@ -20,7 +20,7 @@
 
 	.wp-block-search__input {
 		background: url(../assets/images/search.png) no-repeat 0.25em center;
-		border: 1px solid #ddd;
+		border: 1px solid var(--wp--preset--color--light-gray);
 		border-radius: 2px;
 		box-shadow: inset 0 1px 1px rgb(0 0 0 / 10%);
 		float: right;
@@ -33,13 +33,13 @@
 		width: 120px;
 
 		&::placeholder {
-			color: #999;
+			color: var(--wp--preset--color--mid-gray);
 		}
 
 		&:focus {
-			background-color: #f9f9f9;
+			background-color: var(--wp--preset--color--off-white);
 			background-position: 0.5em center;
-			border: 1px solid #000;
+			border: 1px solid var(--wp--preset--color--dark-gray);
 			outline: none;
 			padding-left: 2em;
 			width: 300px;
