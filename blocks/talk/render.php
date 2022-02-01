@@ -65,7 +65,7 @@ $allowed_html = array(
             <?php endif; ?>
             <div class="block-talk-links">
                 <div role="group" class="block-talk-button-group">
-                    <?php if ( ! empty( $talk_link ) ) : ?>
+                    <?php if ( ! empty( $talk_link ) && ! empty( $talk_link['url'] )  ) : ?>
                         <a 
                             class="block-talk-button is-primary has-text has-icon"
                             href="<?php echo esc_url($talk_link['url']); ?>"
@@ -76,7 +76,7 @@ $allowed_html = array(
                             <?php echo wp_kses( $talk_link['title'], $allowed_html ); ?>
                         </a>
                     <?php endif; ?>
-                    <?php if ( ! empty( $slide_link ) ) : ?>
+                    <?php if ( ! empty( $slide_link ) && ! empty( $slide_link['url'] ) ) : ?>
                         <a 
                             class="block-talk-button is-primary has-text has-icon"
                             href="<?php echo esc_url($slide_link['url']); ?>"
@@ -87,7 +87,7 @@ $allowed_html = array(
                             <?php echo wp_kses( $slide_link['title'], $allowed_html ); ?>
                         </a>
                     <?php endif; ?>
-                    <?php if ( ! empty( $video_link ) ) : ?>
+                    <?php if ( ! empty( $video_link ) && ! empty( $video_link['url'] )  ) : ?>
                         <a 
                             class="block-talk-button is-primary has-text has-icon"
                             href="<?php echo esc_url($video_link['url']); ?>"

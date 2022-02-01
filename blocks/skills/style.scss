@@ -19,17 +19,26 @@
 			border-bottom: dotted 2px var(--wp--preset--color--light-gray);
 			content: "";
 			display: block;
-			margin: 0 1rem;
+			margin: 0;
 			order: 1;
 			width: 100%;
 		}
 
-		em {
+		.block-skills-level {
 			color: var(--wp--preset--color--luminous-vivid-orange);
 			font-style: normal;
 			order: 2;
 			padding: 0 0 0 1rem;
 			white-space: nowrap !important;
+		}
+
+		> .components-base-control {
+			order: 2;
+			padding: 0;
+
+			select {
+				min-width: 120px;
+			}
 		}
 	}
 }

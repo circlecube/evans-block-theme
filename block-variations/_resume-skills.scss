@@ -14,7 +14,7 @@
 		}
 
 		&::before {
-			border-bottom: dotted 2px #ccc;
+			border-bottom: dotted 2px var(--wp--preset--color--light-gray);
 			content: "";
 			display: block;
 			margin: 0 1rem;
@@ -23,6 +23,7 @@
 		}
 
 		em {
+			color: var(--wp--preset--color--luminous-vivid-orange);
 			font-style: normal;
 			order: 2;
 		}

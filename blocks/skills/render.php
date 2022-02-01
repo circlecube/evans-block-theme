@@ -38,14 +38,14 @@ $allowed_html = array(
     id="<?php echo sanitize_title($label); ?>"
     class="block-skills <?php echo esc_attr( $className ); ?>"
 >
-	<li class="block-skills__inner">
+	<li class="block-skills-inner">
 		<?php if ( ! empty( $label ) ) : ?>
-			<strong class="block-skills__label">
+			<strong class="block-skills-label">
 				<?php echo esc_html( $label ); ?>
             </strong>
 		<?php endif; ?>
 		<?php if ( ! empty( $level ) ) : ?>
-			<em class="block-skills__level">
+			<em class="block-skills-level">
 				<?php echo esc_html( $level ); ?>
             </em>
 		<?php endif; ?>

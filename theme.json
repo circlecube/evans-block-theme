@@ -67,7 +67,7 @@
             },
             "link": {
                 "color": {
-                    "text": "var(--wp--preset--color--dark-grey)"
+                    "text": "var(--wp--preset--color--vivid-cyan-blue)"
                 }
             }
         }

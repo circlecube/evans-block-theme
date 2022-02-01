@@ -25,7 +25,7 @@
 .block-talk-label {
 	background: var(--wp--preset--gradient--cool-to-warm-spectrum);
 	background-attachment: fixed;
-	background-size: auto 100vw;
+	background-size: 100vw 100vh;
 	color: var(--wp--preset--color--white);
 	font-weight: 700;
 	left: 20px;
@@ -39,6 +39,10 @@
 
 .block-talk-inner h2.block-talk-title {
 	margin-top: 2.25rem;
+}
+
+.block-talk-content {
+	flex-grow: 2;
 }
 
 .block-talk-button-group {
@@ -72,7 +76,7 @@
 		text-align: center;
 		text-decoration: none;
 		text-shadow: none;
-		transition: box-shadow .1s linear;
+		transition: all .2s linear;
 		white-space: nowrap;
 		word-break: break-word;
 		z-index: 1;
@@ -113,7 +117,7 @@
 }
 
 .block-talk-image {
-	background-color: #9c3;
+	background-color: var(--wp--preset--color--vivid-green-cyan);
 	border-radius: 50%;
 	color: var(--wp--preset--color--white);
 	font-size: 150px;

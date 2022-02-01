@@ -1,7 +1,8 @@
 {
   "name": "evans-block-theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Evans block theme",
+  "repository": "github:circlecube/evans-block-theme",
   "main": "index.js",
   "scripts": {
     "build": "wp-scripts build",

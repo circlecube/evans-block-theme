@@ -2,7 +2,7 @@
  * WordPress dependencies
  */
 import { RichText, useBlockProps } from '@wordpress/block-editor';
-import { Button, ButtonGroup, Icon } from '@wordpress/components';
+import { Button, ButtonGroup, Icon, SelectControl } from '@wordpress/components';
 import { __ } from '@wordpress/i18n';
 
 /**
@@ -24,7 +24,7 @@ const Edit = ( { isSelected, attributes, setAttributes } ) => {
 	return (
 		<>
 			<ul { ...blockProps }>
-				<li className="block-skills__inner">
+				<li className="block-skills-inner">
 					{ ( isSelected || label ) && (
 						<RichText
 							placeholder={ __(
@@ -37,24 +37,28 @@ const Edit = ( { isSelected, attributes, setAttributes } ) => {
 							} }
 							tagName="strong"
 							allowedFormats={ [] }
-							className="block-skills__label"
+							className="block-skills-label"
 						/>
 					) }
-					{ ( isSelected || level ) && (
-						<RichText
-							placeholder={ __(
-								'level text',
-								'evans-block-theme'
-							) }
+					{ ( isSelected ) && (
+						<SelectControl
 							value={ level }
+							className="block-skills-level block-skills-level-select"
+							options={ [
+								{ label: '★★★★★', value: '★★★★★' },
+								{ label: '★★★★☆', value: '★★★★☆' },
+								{ label: '★★★☆☆', value: '★★★☆☆' },
+								{ label: '★★☆☆☆', value: '★★☆☆☆' },
+								{ label: '★☆☆☆☆', value: '★☆☆☆☆' },
+							] }
 							onChange={ ( value ) => {
 								setAttributes( { level: value } );
 							} }
-							tagName="em"
-							allowedFormats={ [] }
-							className="block-skills__level"
 						/>
 					) }
+					{ ( ! isSelected ) && (
+						<em className="block-skills-level">{ level }</em>
+					)}
 				</li>
 			</ul>
 		</>

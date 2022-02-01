@@ -1,13 +1,13 @@
 .resume-experience-block {
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid var(--wp--preset--color--light-gray);
 	margin: 1rem 0;
 	padding: 1rem;
 	transition: background-color 0.3s ease;
 
 	&:hover,
 	&:focus {
-		background: #f7f7f7;
-		border-bottom-color: #aaa;
+		background: var(--wp--preset--color--off-white);
+		border-bottom: 1px solid var(--wp--preset--color--vivid-green-cyan);
 	}
 
 	.job-title {

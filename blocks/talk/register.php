@@ -1,7 +1,7 @@
 <?php
 namespace EvansBlockTheme\Talk;
 
-register_block_type_from_metadata(
+register_block_type(
 	get_stylesheet_directory() . '/blocks/talk',
 	array(
 		'render_callback' => __NAMESPACE__ . '\render_block_callback',
