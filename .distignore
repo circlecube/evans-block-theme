@@ -12,10 +12,8 @@ tests
 .gitignore
 
 # File Types
-*.json
 *.lock
 *.log
-*.md
 *.sql
 *.tar.gz
 *.xml
