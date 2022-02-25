@@ -1,0 +1,26 @@
+{
+    "apiVersion": 2,
+    "title": "Skill",
+    "description": "Block for resume skill",
+    "text-domain": "evans-block-theme",
+    "name": "evans-block-theme/skill",
+    "icon": "star-half",
+    "category": "evans-block-theme",
+    "parent": [
+        "evans-block-theme/skills"
+    ],
+    "attributes": {
+        "label": {
+            "type": "string"
+        },
+        "level": {
+            "type": "string"
+        }
+    },
+    "supports": {
+        "html": false
+    },
+    "example": false,
+    "editorScript": "file:../../build/editor-scripts.js",
+    "editorStyle": "file:../../build/editor-styles.css"
+}

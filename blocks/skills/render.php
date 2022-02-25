@@ -18,9 +18,9 @@ $args = wp_parse_args(
 );
 
 // Bail early if no label.
-if ( empty( $args['attributes']['label'] ) ) {
-	return;
-}
+// if ( empty( $args['attributes']['label'] ) ) {
+// 	return;
+// }
 
 // destructure attributes
 $className = isset($args['attributes']['className']) ? $args['attributes']['className'] : '';
@@ -38,17 +38,5 @@ $allowed_html = array(
     id="<?php echo sanitize_title($label); ?>"
     class="block-skills <?php echo esc_attr( $className ); ?>"
 >
-	<li class="block-skills-inner">
-		<?php if ( ! empty( $label ) ) : ?>
-			<strong class="block-skills-label">
-				<?php echo esc_html( $label ); ?>
-            </strong>
-		<?php endif; ?>
-		<?php if ( ! empty( $level ) ) : ?>
-			<em class="block-skills-level">
-				<?php echo esc_html( $level ); ?>
-            </em>
-		<?php endif; ?>
-
-    </li>
+	<?php echo $args['content']; ?>
 </ul>

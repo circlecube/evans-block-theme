@@ -2,7 +2,6 @@
  * WordPress dependencies
  */
 import { registerBlockType } from '@wordpress/blocks';
-import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
 
 /**
  * Internal dependencies
@@ -21,13 +20,5 @@ import name, * as settings from './block.json';
 registerBlockType( name, {
 	...settings,
 	edit,
-	save: () => {
-		const blockProps = useBlockProps.save();
- 
-        return (
-            <div { ...blockProps }>
-                <InnerBlocks.Content />
-            </div>
-        );
-	},
+	save: () => null,
 } );

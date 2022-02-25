@@ -1,11 +1,11 @@
 <?php
-namespace EvansBlockTheme\Talk;
+namespace EvansBlockTheme\Skill;
 
 function render_block_callback( $attributes, $content, $block ) {
 	ob_start();
 
 	get_template_part(
-		'blocks/talk/render',
+		'blocks/skill/render',
 		null,
 		array(
 			'attributes' => $attributes,
@@ -17,13 +17,13 @@ function render_block_callback( $attributes, $content, $block ) {
 	return ob_get_clean();
 }
 
-function register_talk_block() {
+function register_skill_block() {
 	register_block_type(
-		get_stylesheet_directory() . '/blocks/talk/',
+		get_stylesheet_directory() . '/blocks/skill/',
 		array(
 			'render_callback' => __NAMESPACE__ . '\\render_block_callback',
 		)
 	);
 }
 
-add_action( 'init',  __NAMESPACE__ . '\\register_talk_block' );
+add_action( 'init',  __NAMESPACE__ . '\\register_skill_block' );
