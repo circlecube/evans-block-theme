@@ -44,20 +44,20 @@ $allowed_html = array(
         <em class="block-skill-level">
             <?php 
             switch ($level):
-                case '1':
-                    echo '★☆☆☆☆';
-                    break;
-                case '2':
-                    echo '★★☆☆☆';
-                    break;
-                case '3':
-                    echo '★★★☆☆';
+                case '5':
+                    echo '★★★★★';
                     break;
                 case '4':
                     echo '★★★★☆';
                     break;
-                case '5':
-                    echo '★★★★★';
+                case '3':
+                    echo '★★★☆☆';
+                    break;
+                case '2':
+                    echo '★★☆☆☆';
+                    break;
+                case '1':
+                    echo '★☆☆☆☆';
                     break;
                 default:
                     echo '';
