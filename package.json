@@ -1,6 +1,6 @@
 {
   "name": "evans-block-theme",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Evans block theme",
   "repository": "github:circlecube/evans-block-theme",
   "main": "index.js",
@@ -22,7 +22,8 @@
     "create:dist": "rsync -r --exclude-from=.distignore . ./evans-block-theme",
     "php-deps": "composer install --no-dev --optimize-autoloader",
     "create:zip": "cd ./evans-block-theme && zip -r -9 ../evans-block-theme.zip . && ls -lh ../evans-block-theme.zip",
-    "simulate-runner-build": "rm -rf ./evans-block-theme ./evans-block-theme.zip && npm i && npm run build && npm run create:dist && npm run create:zip"
+    "prebuild:cleanup": "rm -rf ./build ./evans-block-theme ./evans-block-theme.zip ./vendor",
+    "simulate-runner-build": "npm run prebuild:cleanup && npm i && npm run build && npm run create:dist && npm run create:zip"
   },
   "author": "Evan Mullins",
   "license": "GPL-2.0-only",
