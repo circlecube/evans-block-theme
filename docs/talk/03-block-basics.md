@@ -1,9 +1,7 @@
-# `Blockity McBlock Block` WCEU 2022
-## Contents
-- [Overview](01-overview.md)
-- [Block Vision](02-block-vision.md)
-- [Block Basics](03-block-basics.md)
-- [Block Markup](04-block-markup.md)
+# Block Basics
+
+[Contents](index.md)
+Next: [Block Markup](04-block-markup.md)
 - [Core Blocks](05-core-blocks.md)
 - [Custom Blocks](06-custom-blocks.md)
 - [Dynamic Blocks](07-dynamic-blocks.md)
