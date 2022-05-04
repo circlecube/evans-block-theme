@@ -24,7 +24,7 @@ Say you printed a website and cut it out into rectangles of content, each one wo
 - [Block Transforms](12-block-transforms.md)
 - [Block Supports](13-block-supports.md)
 - [Widget Blocks](14-widget-blocks.md)
-- [Block Patterns](15-block-paterns.md)
+- [Block Patterns](15-block-patterns.md)
 - [Block Template](16-block-template.md)
 - [Block-Based Themes](17-block-based-themes.md)
 - [Block Templates](18-block-templates.md)
