@@ -7,6 +7,8 @@ Block Variations is the API that allows a block to have similar versions of it, 
 ## Example
 An example of a block variation in core is the columns block - the preset options you can choose are variations. The column variations are not available in the inserter but in the columns block option as a `blockVariationPicker`. We can also have the variation scoped to transforms
 
+![block variations demo](images/block-variations.png)
+
 You can choose though to have the variations displayed with the main block which it is associated with but you can also make it stand alone and appear as a unique block. A use case for this is when you have a block with various settings that a user may want to jump into immediately. Also can use this to create a new block which is only a collection of exisitng blocks. 
 
 

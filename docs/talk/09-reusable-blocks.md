@@ -4,6 +4,8 @@ We can save a block (or group of blocks) to be used in multiple placed on a site
 
 Reusable blocks are blocks with identical contents that are used in multiple places on a site. This is an end-user feature (rather than developer focused). For example, if you have a blurb at the end of every blog post, you can include it and manage the content globally from one place. If you make an edit to a reusable block, the edits will affect every instance of that block.
 
+![reusable blocks demo](images/reusable-blocks.gif)
+
 ### Further Reading
 - https://wordpress.com/support/wordpress-editor/blocks/reusable-block/ 
 

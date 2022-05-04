@@ -1,8 +1,10 @@
 # Block Templates
 
-A block-based theme template is made up simply of a list of blocks. Any WordPress block can be used in a template.
+A block-based theme template is made up simply of a list of blocks in the format of block markup. Any block can be used in a template. Templates are html files rather than the traditional php templates in standard themes. 
 
-These are html files rather than the traditional php templates in standard themes. Templates are designs for pages and can include one or more template parts.
+Templates are designs for pages and can include one or more template parts. Both templates and template parts contain block markup to represent blocks and block settings and content. Template are located in a `templates` directory in the theme and template parts are located in a `parts` directory.
+
+![block template directory](images/block-templates-and-parts.png)
 
 ### Further Reading
 - https://developer.wordpress.org/themes/block-themes/templates-and-template-parts/

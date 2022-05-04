@@ -18,6 +18,8 @@ Blocks can be static or dynamic. Static blocks contain rendered content and an o
 
 Each block contains Attributes or configuration settings, which can be sourced from raw HTML in the content via meta or other customizable origins.
 
+![View block markup in editor](images/block-markup.gif)
+
 Go view the markup for all your blocks, it may help you see blocks a little differently. Just click the three dots on any gutenberg page and select the code editor. You can see the html content as well as the block attributes in the html comments.
 
 Notice that the attributes are saved as well as the results of these attributes: heading level and alignment values are saved as attributes and the h3 element and the alignment class in the element.

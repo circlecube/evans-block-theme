@@ -4,6 +4,7 @@ Block Transforms is the API that allows a block to be transformed from and to ot
 
 For example, we can transform or change a paragraph block into a heading block and keep the content and some other options in the process.
 
+![block transform demo](images/block-transform.gif)
 
 ### Further Reading
 - https://developer.wordpress.org/block-editor/reference-guides/block-api/block-transforms/ 

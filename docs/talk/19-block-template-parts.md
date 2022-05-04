@@ -2,7 +2,9 @@
 
 Template parts are used to organize a theme in smaller reusable structural parts. They are commonly used for a global site header and site footer for example.
 
-Both templates and template parts contain block markup to represent blocks and block settings and content.
+Both templates and template parts contain block markup to represent blocks and block settings and content. Template are located in a `templates` directory in the theme and template parts are located in a `parts` directory.
+
+![block template directory](images/block-templates-and-parts.png)
 
 ### Further Reading
 - https://developer.wordpress.org/themes/block-themes/templates-and-template-parts/

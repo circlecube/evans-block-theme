@@ -21,8 +21,7 @@ register_block_style(
 );
 ```
 
-
-
+![Block style preview](images/block-style-inspector.png)
 
 ### Further Reading
 - https://developer.wordpress.org/block-editor/reference-guides/block-api/block-styles/ 

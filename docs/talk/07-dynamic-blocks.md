@@ -1,6 +1,8 @@
 # Dynamic Blocks
 
-Dynamic blocks connect to the database to compute and render content whereas a static block has content that doesn’t change. For example, a latest posts block has dynamic content that changes.
+Dynamic blocks connect to the database to compute and render content whereas a static block has content that doesn’t change. For example, a latest posts block has dynamic content that changes. Notice the latest posts block shows a loader only while it fetches the dynamic content.
+
+![dynamic block demo](images/dynamic-block.gif)
 
 These include anything that is non-static block, a dynamic block must connect to the database to compute and render content. A static block is only static content that doesn’t change, like a paragraph block with simple text as the content. A dynamic block is something that changes based on the data and options, such as a recent posts block. They need interaction with the server so either by using ServerSideRendering or api interactions to collect data.
 

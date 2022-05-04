@@ -2,6 +2,8 @@
 
 This is an API that allows a block to declare support for certain features when registering. With a custom block we can easily incorporate features that exist on core blocks – like anchor, color or alignment – by adding the relevant block supports property.
 
+![block supports demo](images/block-supports-alignment.gif)
+
 For example, See the supports used in [paragraph core block](https://github.com/WordPress/gutenberg/blob/trunk/packages/block-library/src/paragraph/block.json#L33)
 
 ### Further Reading

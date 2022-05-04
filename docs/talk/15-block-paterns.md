@@ -2,6 +2,8 @@
 
 Predefined block layouts, available from the patterns directory found in the pattern tab. Once inserted into content, the blocks are ready for additional or modified content and configuration. Patterns usually include multiple blocks and styles to achieve a certain look or pattern.
 
+![Block patterns in the block inserter](images/block-patterns.gif)
+
 ### Further Reading
 - https://developer.wordpress.org/block-editor/reference-guides/block-api/block-patterns/ 
 - https://wordpress.org/patterns/
