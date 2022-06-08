@@ -23,14 +23,14 @@ if ( empty( $args['attributes']['headline'] ) ) {
 }
 
 // destructure attributes
-$className   = isset($args['attributes']['className']) ? $args['attributes']['className'] : '';
-$label       = isset($args['attributes']['label']) ? $args['attributes']['label'] : '';
-$headline    = isset($args['attributes']['headline']) ? $args['attributes']['headline'] : '';
-$description = isset($args['attributes']['description']) ? $args['attributes']['description'] : '';
-$talk_link   = isset($args['attributes']['talk_link']) ? $args['attributes']['talk_link'] : '';
-$slide_link  = isset($args['attributes']['slide_link']) ? $args['attributes']['slide_link'] : '';
-$video_link  = isset($args['attributes']['video_link']) ? $args['attributes']['video_link'] : '';
-$image       = isset($args['attributes']['image']['url']) ? $args['attributes']['image']['url'] : '';
+$className   = isset( $args['attributes']['className'] ) ? $args['attributes']['className'] : '';
+$label       = isset( $args['attributes']['label'] ) ? $args['attributes']['label'] : '';
+$headline    = isset( $args['attributes']['headline'] ) ? $args['attributes']['headline'] : '';
+$description = isset( $args['attributes']['description'] ) ? $args['attributes']['description'] : '';
+$talk_link   = isset( $args['attributes']['talk_link'] ) ? $args['attributes']['talk_link'] : '';
+$slide_link  = isset( $args['attributes']['slide_link'] ) ? $args['attributes']['slide_link'] : '';
+$video_link  = isset( $args['attributes']['video_link'] ) ? $args['attributes']['video_link'] : '';
+$image       = isset( $args['attributes']['image']['url'] ) ? $args['attributes']['image']['url'] : '';
 
 
 $allowed_html = array(
@@ -41,7 +41,7 @@ $allowed_html = array(
 );
 ?>
 <div 
-    id="<?php echo sanitize_title($label); ?>"
+    id="<?php echo sanitize_title( $label ); ?>"
     class="block-talk <?php echo esc_attr( $className ); ?>"
 >
 	<div class="block-talk-inner">
@@ -72,29 +72,29 @@ $allowed_html = array(
                             title="View Talk Details"
                             target="_blank"
                         >
-                            <span class="dashicon dashicons dashicons-tickets"></span>
+                            <span class="dashicon dashicons dashicons-nametag"></span>
                             <?php echo wp_kses( $talk_link['title'], $allowed_html ); ?>
                         </a>
                     <?php endif; ?>
                     <?php if ( ! empty( $slide_link ) && ! empty( $slide_link['url'] ) ) : ?>
                         <a 
                             class="block-talk-button is-primary has-text has-icon"
-                            href="<?php echo esc_url($slide_link['url']); ?>"
+                            href="<?php echo esc_url( $slide_link['url'] ); ?>"
                             title="View Talk Slides"
                             target="_blank"
                         >
-                            <span class="dashicon dashicons dashicons-slides"></span>    
+                            <span class="dashicon dashicons dashicons-media-interactive"></span>    
                             <?php echo wp_kses( $slide_link['title'], $allowed_html ); ?>
                         </a>
                     <?php endif; ?>
                     <?php if ( ! empty( $video_link ) && ! empty( $video_link['url'] )  ) : ?>
                         <a 
                             class="block-talk-button is-primary has-text has-icon"
-                            href="<?php echo esc_url($video_link['url']); ?>"
+                            href="<?php echo esc_url( $video_link['url'] ); ?>"
                             title="View Talk Recording"
                             target="_blank"
                         >
-                            <span class="dashicon dashicons dashicons-video-alt"></span>    
+                            <span class="dashicon dashicons dashicons-format-video"></span>    
                             <?php echo wp_kses( $video_link['title'], $allowed_html ); ?>
                         </a>
                     <?php endif; ?>
@@ -105,8 +105,9 @@ $allowed_html = array(
         <div class="block-talk-image-wrap">
             <?php if ( ! empty( $image ) ) : ?>
                 <img
-                    class="block-talk-image" 
-                    src="<?php echo esc_url($image); ?>"
+                    alt="<?php esc_attr( $headline ); ?> talk thumbnail"
+                    class="block-talk-image"
+                    src="<?php echo esc_url( $image ); ?>"
                 />
             <?php else: ?>
                 <span class="block-talk-image dashicon dashicons dashicons-megaphone"></span>

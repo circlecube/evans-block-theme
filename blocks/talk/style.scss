@@ -71,7 +71,7 @@
 		height: 36px;
 		justify-content: left;
 		margin: 0;
-		padding: 8px 12px;
+		padding: 8px 16px 8px 12px;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
@@ -82,11 +82,18 @@
 		z-index: 1;
 
 		&:hover {
-			background-color: var(--wp--preset--color--dark-cyan-blue);
+			background-color: rgb(207,42,186); // pink
+
+			.dashicon {
+				font-size: 30px;
+				height: 30px;
+			}
 		}
 
 		.dashicon {
 			margin-right: 8px;
+			width: 30px;
+			transition: all .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 		}
 	}
 }
@@ -103,6 +110,22 @@
 			opacity: 0.5;
 		}
 	}
+
+	.block-talk-button-group {
+
+		.block-talk-button {
+
+			&:first-child {
+				border-top-left-radius: 8px;
+				border-bottom-left-radius: 8px;
+			}
+
+			&:last-child{
+				border-top-right-radius: 8px;
+				border-bottom-right-radius: 8px;
+			}
+		}
+	}
 }
 
 .block-talk-image-wrap {
@@ -117,19 +140,27 @@
 }
 
 .block-talk-image {
-	background-color: var(--wp--preset--color--vivid-green-cyan);
-	border-radius: 50%;
+	background-color: var(--wp--preset--color--dark-gray);
+	border: 2px solid var(--wp--preset--color--light-gray);
+	border-radius: 6px;
 	color: var(--wp--preset--color--white);
-	font-size: 150px;
-	height: 100%;
-	line-height: 200px;
-	object-fit: cover;
-	object-position: center;
 	max-height: 200px;
 	max-width: 200px;
-	min-height: 200px;
-	min-width: 200px;
-	width: 100%;
+	object-fit: contain;
+	object-position: center;
+	
+	&.dashicon {
+		background-color: var(--wp--preset--color--vivid-green-cyan);
+		border-radius: 50%;
+		border-width: 0;
+		font-size: 150px;
+		height: 100%;
+		line-height: 200px;
+		min-height: 200px;
+		min-width: 200px;
+		object-fit: cover;
+		width: 100%;
+	}
 }
 
 .block-talk-image-replace,
