@@ -18,8 +18,9 @@ This was built as a personal block and block theme playground for myself as well
 ## Still in the works:
 - More custom blocks for fun.
 - More Custom block styles for fun.
-- A link tree type block and template?
 
 # Blockity McBlock Block
 ## This theme features in my `Blockity McBlock Block` talk at WCEU 2022
 [See talk notes and details in the repo here.](docs/talk-blockity/index.md)
+## This theme features in my `FSE FTW` talk at WCUS 2022
+[See talk notes and details in the repo here.](docs/talk-fse-ftw/index.md)
