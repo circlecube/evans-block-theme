@@ -37,4 +37,4 @@ Cover block with a background image. With a group block containing a header and 
 ```
 
 ### Block example
-(https://evanmullins.com/business-card/)[https://evanmullins.com/business-card/]
+https://evanmullins.com/business-card/

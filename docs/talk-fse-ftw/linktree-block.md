@@ -97,4 +97,4 @@ Cover block with background containing a rounded square image (optional), follow
 ```
 
 ### Block example
-(https://evanmullins.com/linktree/)[https://evanmullins.com/linktree/]
+https://evanmullins.com/linktree/

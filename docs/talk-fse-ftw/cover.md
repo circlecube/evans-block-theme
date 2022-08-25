@@ -23,4 +23,4 @@ Cover block with a background image and some simple content.
 ```
 
 ### Block example
-(https://evanmullins.com/cover/)[https://evanmullins.com/cover/]
+https://evanmullins.com/cover/
