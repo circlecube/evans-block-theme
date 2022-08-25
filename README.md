@@ -22,4 +22,4 @@ This was built as a personal block and block theme playground for myself as well
 
 # Blockity McBlock Block
 ## This theme features in my `Blockity McBlock Block` talk at WCEU 2022
-[See talk notes and details in the repo here.](docs/talk/index.md)
+[See talk notes and details in the repo here.](docs/talk-blockity/index.md)
