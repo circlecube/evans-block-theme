@@ -28,5 +28,19 @@ There are many reasons to have a personal site. I believe that though there is s
 - Sell things
 - Self-promotion
 - It’s like a vanity plate
-- All the cool people are doing it xD 😂
+- All the cool people are doing it 😂
 - etc.
+
+### Contents
+- [Overview](overview.md)
+- ***The Case For A Personal Site***
+- [Helpful Blocks For A Personal Site](helpful-blocks.md)
+ - [Cover](cover.md)
+ - [Business Card](business-card.md)
+ - [LinkTree](linktree-block.md)
+ - [Social Links](social-links.md)
+ - [Resume Experience](resume-experience.md)
+ - [Resume Skills](resume-skills.md)
+ - [Talk](talk.md)
+- [Get Inspired](insipration.md)
+- [Thanks!](thanks.md)

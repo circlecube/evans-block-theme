@@ -2,7 +2,7 @@
 These are custom blocks as a variation on columns block. They have some preset values and layout, but didn't require a full on custom block. 
 
 ### Block description
-This block appears to be a full on block, but it's only a (block variation)[https://github.com/circlecube/evans-block-theme/blob/main/block-variations/resume-experience.js] of a column block. It has preset some innerblocks to keep formatting consistent. There are also some custom (styles)[https://github.com/circlecube/evans-block-theme/blob/main/block-variations/_resume-experience.scss] in place.
+This block appears to be a full on block, but it's only a [block variation](https://github.com/circlecube/evans-block-theme/blob/main/block-variations/resume-experience.js) of a column block. It has preset some innerblocks to keep formatting consistent. There are also some custom [styles](https://github.com/circlecube/evans-block-theme/blob/main/block-variations/_resume-experience.scss) in place.
 
 
 ### Block markup
@@ -35,4 +35,18 @@ This block appears to be a full on block, but it's only a (block variation)[http
 ```
 
 ### Block example
-View an example with other (blocks)[https://evanmullins.com/blocks/#experience].
+View an example with other [blocks](https://evanmullins.com/blocks/#experience).
+
+### Contents
+- [Overview](overview.md)
+- [The Case For A Personal Site](case-for-personal-site.md)
+- [Helpful Blocks For A Personal Site](helpful-blocks.md)
+ - [Cover](cover.md)
+ - [Business Card](business-card.md)
+ - [LinkTree](linktree-block.md)
+ - [Social Links](social-links.md)
+ - ***Resume Experience***
+ - [Resume Skills](resume-skills.md)
+ - [Talk](talk.md)
+- [Get Inspired](insipration.md)
+- [Thanks!](thanks.md)

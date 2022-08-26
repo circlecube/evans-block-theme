@@ -2,7 +2,7 @@
 This is included as a template part. The template part includes only a social links block with a slew of social links added. Note that it is also included in the site footer as a template part.
 
 ### Block description
-A social block is a handy way to include a lot of links to other social networks. This is great for a personal site if you want visitors to be able to find you elsewhere online. Bonus: Here's a fairly simple (method)[https://github.com/circlecube/evans-block-theme/blob/main/src/_footer.scss#L40] to add custom classes to the links and then add css styles for customer background images to keep the link styles nice and recognizable.
+A social block is a handy way to include a lot of links to other social networks. This is great for a personal site if you want visitors to be able to find you elsewhere online. Bonus: Here's a fairly simple [method](https://github.com/circlecube/evans-block-theme/blob/main/src/_footer.scss#L40) to add custom classes to the links and then add css styles for customer background images to keep the link styles nice and recognizable.
 
 ### Block markup
 Template part block include markup
@@ -46,4 +46,18 @@ Actual Social Template Part Markup
 ```
 
 ### Block example
-View an example with other (blocks)[https://evanmullins.com/blocks/#social] or view it in the site footer.
+View an example with other [blocks](https://evanmullins.com/blocks/#social) or view it in the site footer.
+
+### Contents
+- [Overview](overview.md)
+- [The Case For A Personal Site](case-for-personal-site.md)
+- [Helpful Blocks For A Personal Site](helpful-blocks.md)
+ - [Cover](cover.md)
+ - [Business Card](business-card.md)
+ - [LinkTree](linktree-block.md)
+ - ***Social Links***
+ - [Resume Experience](resume-experience.md)
+ - [Resume Skills](resume-skills.md)
+ - [Talk](talk.md)
+- [Get Inspired](insipration.md)
+- [Thanks!](thanks.md)

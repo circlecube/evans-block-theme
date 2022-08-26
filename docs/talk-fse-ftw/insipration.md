@@ -1,43 +1,57 @@
 ## Get Inspired
 Take a look at some personal sites from the WordPress community: 
 
-- (evanmullins.com)[https://evanmullins.com/]
-- (aarondcampbell.com)[https://aarondcampbell.com/]
-- (jonathandesrosiers.com)[https://jonathandesrosiers.com/]
-- (wpscholar.com)[https://wpscholar.com/]
-- (wearnhardt.com)[https://wearnhardt.com/]
-- (helen.blog)[https://helen.blog/]
-- (nomad.blog)[https://nomad.blog/]
-- (jeanbaptisteaudras.com)[https://jeanbaptisteaudras.com/]
-- (matiasventura.com)[https://matiasventura.com/]
-- (hellofromtonya.com)[https://hellofromtonya.com/]
-- (jeffpaul.com)[https://jeffpaul.com/]
-- (ma.tt)[https://ma.tt/]
-- (josepha.blog)[https://josepha.blog/]
-- (atlantawpcoach.com)[https://atlantawpcoach.com/]
-- (angelajin.blog)[https://angelajin.blog/]
-- (courtneyr.dev)[https://courtneyr.dev/]
-- (jjj.blog)[https://jjj.blog/]
-- (felix-arntz.me)[https://felix-arntz.me/]
-- (noisysocks.com)[https://noisysocks.com/]
-- (ryanwelcher.com)[https://ryanwelcher.com/]
-- (fabian-kaegy.com)[https://fabian-kaegy/.com]
-- (joesnellpdx.com)[https://joesnellpdx.com/]
-- (corymiller.com)[https://corymiller.com/]
-- (justintadlock.com)[https://justintadlock.com/]
-- (tammielister.com)[https://tammielister.com/]
-- (chriscoyier.net)[https://chriscoyier.net/]
-- (johneckman.com)[https://johneckman.com/]
-- (timwright.org)[https://timwright.org/]
-- (sergeybiryukov.ru)[https://sergeybiryukov.ru/]
-- (topher1kenobe.com)[https://topher1kenobe.com/]
-- (meetmichelle.online)[https://meetmichelle.online/]
-- (thefragens.com)[https://thefragens.com/]
-- (ipstenu.org)[https://ipstenu.org/]
-- (ozz.blog)[https://ozz.blog/]
-- (markjaquith.com)[https://markjaquith.com/]
-- (gziolo.pl)[https://gziolo.pl/]
-- (adamadam.blog)[https://adamadam.blog/]
-- (peterwilson.cc)[https://peterwilson.cc/]
+- [evanmullins.com](https://evanmullins.com/)
+- [aarondcampbell.com](https://aarondcampbell.com/)
+- [jonathandesrosiers.com](https://jonathandesrosiers.com/)
+- [wpscholar.com](https://wpscholar.com/)
+- [wearnhardt.com](https://wearnhardt.com/)
+- [helen.blog](https://helen.blog/)
+- [nomad.blog](https://nomad.blog/)
+- [jeanbaptisteaudras.com](https://jeanbaptisteaudras.com/)
+- [matiasventura.com](https://matiasventura.com/)
+- [hellofromtonya.com](https://hellofromtonya.com/)
+- [jeffpaul.com](https://jeffpaul.com/)
+- [ma.tt](https://ma.tt/)
+- [josepha.blog](https://josepha.blog/)
+- [atlantawpcoach.com](https://atlantawpcoach.com/)
+- [angelajin.blog](https://angelajin.blog/)
+- [courtneyr.dev](https://courtneyr.dev/)
+- [jjj.blog](https://jjj.blog/)
+- [felix-arntz.me](https://felix-arntz.me/)
+- [noisysocks.com](https://noisysocks.com/)
+- [ryanwelcher.com](https://ryanwelcher.com/)
+- [fabian-kaegy.com](https://fabian-kaegy/.com)
+- [joesnellpdx.com](https://joesnellpdx.com/)
+- [corymiller.com](https://corymiller.com/)
+- [justintadlock.com](https://justintadlock.com/)
+- [tammielister.com](https://tammielister.com/)
+- [chriscoyier.net](https://chriscoyier.net/)
+- [johneckman.com](https://johneckman.com/)
+- [timwright.org](https://timwright.org/)
+- [sergeybiryukov.ru](https://sergeybiryukov.ru/)
+- [topher1kenobe.com](https://topher1kenobe.com/)
+- [meetmichelle.online](https://meetmichelle.online/)
+- [thefragens.com](https://thefragens.com/)
+- [ipstenu.org](https://ipstenu.org/)
+- [ozz.blog](https://ozz.blog/)
+- [markjaquith.com](https://markjaquith.com/)
+- [gziolo.pl](https://gziolo.pl/)
+- [adamadam.blog](https://adamadam.blog/)
+- [peterwilson.cc](https://peterwilson.cc/)
 
 Have a site to share? Please send it to me or make a PR to add.
+
+### Contents
+- [Overview](overview.md)
+- [The Case For A Personal Site](case-for-personal-site.md)
+- [Helpful Blocks For A Personal Site](helpful-blocks.md)
+ - [Cover](cover.md)
+ - [Business Card](business-card.md)
+ - [LinkTree](linktree-block.md)
+ - [Social Links](social-links.md)
+ - [Resume Experience](resume-experience.md)
+ - [Resume Skills](resume-skills.md)
+ - [Talk](talk.md)
+- ***Get Inspired***
+- [Thanks!](thanks.md)

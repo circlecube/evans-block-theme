@@ -2,7 +2,7 @@
 A custom block (built into the theme) to display a talk with details and format links to the talk, slides and video. 
 
 ### Block description
-View the block source code in the theme at (evans-block-theme/blocks/talk)[https://github.com/circlecube/evans-block-theme/tree/main/blocks/talk]
+View the block source code in the theme at [evans-block-theme/blocks/talk](https://github.com/circlecube/evans-block-theme/tree/main/blocks/talk).
 
 ### Block markup
 ```
@@ -10,5 +10,19 @@ View the block source code in the theme at (evans-block-theme/blocks/talk)[https
 ```
 
 ### Block example
-View this block in action on the (speaking)[https://evanmullins.com/speaking/] page.
-Also, view an example with other (blocks)[https://evanmullins.com/blocks/#talk].
+View this block in action on the [speaking](https://evanmullins.com/speaking/) page.
+Also, view an example with other [blocks](https://evanmullins.com/blocks/#talk).
+
+### Contents
+- [Overview](overview.md)
+- [The Case For A Personal Site](case-for-personal-site.md)
+- [Helpful Blocks For A Personal Site](helpful-blocks.md)
+ - [Cover](cover.md)
+ - [Business Card](business-card.md)
+ - [LinkTree](linktree-block.md)
+ - [Social Links](social-links.md)
+ - [Resume Experience](resume-experience.md)
+ - [Resume Skills](resume-skills.md)
+ - ***Talk***
+- [Get Inspired](insipration.md)
+- [Thanks!](thanks.md)
