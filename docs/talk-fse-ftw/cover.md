@@ -1,4 +1,3 @@
-
 ## Cover Block
 Simply use a cover block to give some easy nicely formatted content on your site. It's a simple and modern way to start a site with a landing page or panel.
 

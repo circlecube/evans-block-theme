@@ -1,4 +1,3 @@
-
 ## Business Card Block Pattern
 Block pattern to resemble a business card. Meant for a quick easy setup for a personal site. Create a site, make a single page template your home page and add this block pattern. Done.
 

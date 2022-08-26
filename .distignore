@@ -19,3 +19,6 @@ tests
 *.xml
 *.yml
 *.zip
+
+# Folders
+docs
