@@ -10,24 +10,24 @@ Along with blocks there are many updates to WordPress that help us keep our site
 - Easy blocks for content.
 
 # The Blocks
-- [Cover](cover.md)
-- [Business Card](business-card.md)
+- [Cover](cover-block.md)
+- [Business Card](business-card-block.md)
 - [LinkTree](linktree-block.md)
-- [Social Links](social-links.md)
-- [Resume Experience](resume-experience.md)
-- [Resume Skills](resume-skills.md)
-- [Talk](talk.md)
+- [Social Links](social-links-block.md)
+- [Resume Experience](resume-experience-job-block.md)
+- [Resume Skills](resume-skills-block.md)
+- [Talk](talk-block.md)
 
 ### Contents
 - [Overview](overview.md)
 - [The Case For A Personal Site](case-for-personal-site.md)
 - ***Helpful Blocks For A Personal Site***
- - [Cover](cover.md)
- - [Business Card](business-card.md)
+ - [Cover](cover-block.md)
+ - [Business Card](business-card-block.md)
  - [LinkTree](linktree-block.md)
- - [Social Links](social-links.md)
- - [Resume Experience](resume-experience.md)
- - [Resume Skills](resume-skills.md)
- - [Talk](talk.md)
+ - [Social Links](social-links-block.md)
+ - [Resume Experience](resume-experience-job-block.md)
+ - [Resume Skills](resume-skills-block.md)
+ - [Talk](talk-block.md)
 - [Get Inspired](insipration.md)
 - [Thanks!](thanks.md)

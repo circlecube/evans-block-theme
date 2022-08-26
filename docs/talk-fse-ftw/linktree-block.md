@@ -4,6 +4,8 @@ This block pattern is modeled after the popular linktree design pattern where so
 ### Block details
 Cover block with background containing a rounded square image (optional), followed by a  spacer and buttons.
 
+![linktree block demo](images/linktree-block.png)
+
 ### Block markup
 ```
 <!-- wp:cover {"dimRatio":0,"gradient":"cool-to-warm-spectrum","isDark":false,"align":"full"} -->
@@ -96,18 +98,19 @@ Cover block with background containing a rounded square image (optional), follow
 ```
 
 ### Block example
+https://wordpress.org/patterns/pattern/linktree/
 https://evanmullins.com/linktree/
 
 ### Contents
 - [Overview](overview.md)
 - [The Case For A Personal Site](case-for-personal-site.md)
 - [Helpful Blocks For A Personal Site](helpful-blocks.md)
- - [Cover](cover.md)
- - [Business Card](business-card.md)
+ - [Cover](cover-block.md)
+ - [Business Card](business-card-block.md)
  - ***LinkTree***
- - [Social Links](social-links.md)
- - [Resume Experience](resume-experience.md)
- - [Resume Skills](resume-skills.md)
- - [Talk](talk.md)
+ - [Social Links](social-links-block.md)
+ - [Resume Experience](resume-experience-job-block.md)
+ - [Resume Skills](resume-skills-block.md)
+ - [Talk](talk-block.md)
 - [Get Inspired](insipration.md)
 - [Thanks!](thanks.md)

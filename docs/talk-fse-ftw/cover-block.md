@@ -4,6 +4,8 @@ Simply use a cover block to give some easy nicely formatted content on your site
 ### Block description
 Cover block with a background image and some simple content.
 
+![cover block demo](images/cover-block.jpg)
+
 ### Block markup
 ```
 <!-- wp:cover {"url":"....jpg","id":8026,"dimRatio":20,"overlayColor":"dark-cyan-blue","minHeight":90,"minHeightUnit":"vh","isDark":false,"align":"full"} -->
@@ -29,11 +31,11 @@ https://evanmullins.com/cover/
 - [The Case For A Personal Site](case-for-personal-site.md)
 - [Helpful Blocks For A Personal Site](helpful-blocks.md)
  - ***Cover***
- - [Business Card](business-card.md)
+ - [Business Card](business-card-block.md)
  - [LinkTree](linktree-block.md)
- - [Social Links](social-links.md)
- - [Resume Experience](resume-experience.md)
- - [Resume Skills](resume-skills.md)
- - [Talk](talk.md)
+ - [Social Links](social-links-block.md)
+ - [Resume Experience](resume-experience-job-block.md)
+ - [Resume Skills](resume-skills-block.md)
+ - [Talk](talk-block.md)
 - [Get Inspired](insipration.md)
 - [Thanks!](thanks.md)

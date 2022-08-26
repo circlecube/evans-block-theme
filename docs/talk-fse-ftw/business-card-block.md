@@ -4,6 +4,8 @@ Block pattern to resemble a business card. Meant for a quick easy setup for a pe
 ### Block description
 Cover block with a background image. With a group block containing a header and paragraph and social links.
 
+![business card block demo](images/business-card-block.jpg)
+
 ### Block markup
 ```
 <!-- wp:cover {"url":"....jpg","id":8026,"dimRatio":20,"overlayColor":"dark-cyan-blue","minHeight":500,"isDark":false,"align":"wide","style":{"spacing":{"padding":{"right":"24rem"}}}} -->
@@ -42,12 +44,12 @@ https://evanmullins.com/business-card/
 - [Overview](overview.md)
 - [The Case For A Personal Site](case-for-personal-site.md)
 - [Helpful Blocks For A Personal Site](helpful-blocks.md)
- - [Cover](cover.md)
+ - [Cover](cover-block.md)
  - ***Business Card***
  - [LinkTree](linktree-block.md)
- - [Social Links](social-links.md)
- - [Resume Experience](resume-experience.md)
- - [Resume Skills](resume-skills.md)
- - [Talk](talk.md)
+ - [Social Links](social-links-block.md)
+ - [Resume Experience](resume-experience-job-block.md)
+ - [Resume Skills](resume-skills-block.md)
+ - [Talk](talk-block.md)
 - [Get Inspired](insipration.md)
 - [Thanks!](thanks.md)

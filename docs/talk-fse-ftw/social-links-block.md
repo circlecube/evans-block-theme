@@ -48,16 +48,18 @@ Actual Social Template Part Markup
 ### Block example
 View an example with other [blocks](https://evanmullins.com/blocks/#social) or view it in the site footer.
 
+![social links block demo](images/social-links-block.png)
+
 ### Contents
 - [Overview](overview.md)
 - [The Case For A Personal Site](case-for-personal-site.md)
 - [Helpful Blocks For A Personal Site](helpful-blocks.md)
- - [Cover](cover.md)
- - [Business Card](business-card.md)
+ - [Cover](cover-block.md)
+ - [Business Card](business-card-block.md)
  - [LinkTree](linktree-block.md)
  - ***Social Links***
- - [Resume Experience](resume-experience.md)
- - [Resume Skills](resume-skills.md)
- - [Talk](talk.md)
+ - [Resume Experience](resume-experience-job-block.md)
+ - [Resume Skills](resume-skills-block.md)
+ - [Talk](talk-block.md)
 - [Get Inspired](insipration.md)
 - [Thanks!](thanks.md)
