@@ -4,6 +4,8 @@ This is included as a template part. The template part includes only a social li
 ### Block description
 A social block is a handy way to include a lot of links to other social networks. This is great for a personal site if you want visitors to be able to find you elsewhere online. Bonus: Here's a fairly simple [method](https://github.com/circlecube/evans-block-theme/blob/main/src/_footer.scss#L40) to add custom classes to the links and then add css styles for customer background images to keep the link styles nice and recognizable.
 
+![social links block demo](images/social-block.png)
+
 ### Block markup
 Template part block include markup
 ```
@@ -47,8 +49,6 @@ Actual Social Template Part Markup
 
 ### Block example
 View an example with other [blocks](https://evanmullins.com/blocks/#social) or view it in the site footer.
-
-![social links block demo](images/social-links-block.png)
 
 ### Contents
 - [Overview](overview.md)
