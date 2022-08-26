@@ -46,4 +46,4 @@ Actual Social Template Part Markup
 ```
 
 ### Block example
-View an example with other (blocks)[https://evanmullins.com/blocks/] or view it in the site footer.
+View an example with other (blocks)[https://evanmullins.com/blocks/#social] or view it in the site footer.

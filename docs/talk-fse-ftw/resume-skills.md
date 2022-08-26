@@ -16,4 +16,4 @@ View the block source code in the theme at (evans-block-theme/blocks/skills)[htt
 ```
 
 ### Block example
-View an example with other (blocks)[https://evanmullins.com/blocks/].
+View an example with other (blocks)[https://evanmullins.com/blocks/#skills].

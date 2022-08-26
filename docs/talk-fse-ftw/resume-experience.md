@@ -35,4 +35,4 @@ This block appears to be a full on block, but it's only a (block variation)[http
 ```
 
 ### Block example
-View an example with other (blocks)[https://evanmullins.com/blocks/].
+View an example with other (blocks)[https://evanmullins.com/blocks/#experience].

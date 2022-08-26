@@ -11,4 +11,4 @@ View the block source code in the theme at (evans-block-theme/blocks/talk)[https
 
 ### Block example
 View this block in action on the (speaking)[https://evanmullins.com/speaking/] page.
-Also, view an example with other (blocks)[https://evanmullins.com/blocks/].
+Also, view an example with other (blocks)[https://evanmullins.com/blocks/#talk].
