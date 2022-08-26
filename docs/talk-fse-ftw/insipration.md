@@ -39,6 +39,9 @@ Take a look at some personal sites from the WordPress community:
 - [gziolo.pl](https://gziolo.pl/)
 - [adamadam.blog](https://adamadam.blog/)
 - [peterwilson.cc](https://peterwilson.cc/)
+- [moc.co](https://moc.co/)
+- [johnblackbourn.com](https://johnblackbourn.com/about/)
+- [ryelle.codes](https://ryelle.codes/)
 
 Have a site to share? Please send it to me or make a PR to add.
 
