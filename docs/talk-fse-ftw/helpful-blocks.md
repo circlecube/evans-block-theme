@@ -17,6 +17,10 @@ Along with blocks there are many updates to WordPress that help us keep our site
 - [Resume Experience](resume-experience-job-block.md)
 - [Resume Skills](resume-skills-block.md)
 - [Talk](talk-block.md)
+- Contact form
+- Testimonial
+- Portfolio
+- Code Samples
 
 ### Contents
 - [Overview](overview.md)
