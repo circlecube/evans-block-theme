@@ -1,4 +1,4 @@
-## Thansk for tuning in
+## Thank you for tuning in
 :heart:
 
 ### Questions or feedback? 
