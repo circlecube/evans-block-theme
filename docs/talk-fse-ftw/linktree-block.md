@@ -100,15 +100,14 @@ Cover block with background containing a rounded square image (optional), follow
 ```
 
 ### Block example
-https://wordpress.org/patterns/pattern/linktree/
-https://evanmullins.com/linktree/
+View the [linktree block pattern](https://wordpress.org/patterns/pattern/linktree/) in the pattern directory or view a [linktree example](https://evanmullins.com/linktree/) on my site on a blank tempalte page.
 
 ### Contents
 - [Overview](overview.md)
 - [The Case For A Personal Site](case-for-personal-site.md)
 - [Helpful Blocks For A Personal Site](helpful-blocks.md)
- - [Cover](cover-block.md)
  - [Business Card](business-card-block.md)
+ - [Cover](cover-block.md)
  - ***LinkTree***
  - [Social Links](social-links-block.md)
  - [Resume Experience](resume-experience-job-block.md)

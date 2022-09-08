@@ -44,8 +44,8 @@ https://evanmullins.com/business-card/
 - [Overview](overview.md)
 - [The Case For A Personal Site](case-for-personal-site.md)
 - [Helpful Blocks For A Personal Site](helpful-blocks.md)
- - [Cover](cover-block.md)
  - ***Business Card***
+ - [Cover](cover-block.md)
  - [LinkTree](linktree-block.md)
  - [Social Links](social-links-block.md)
  - [Resume Experience](resume-experience-job-block.md)

@@ -6,7 +6,7 @@ Do you have a personal site? Is it attractive? Is it current? No more excuses, f
 
 ## About me
 
-I'm Evan Mullins (circlecube)
+I'm [Evan Mullins](https://evanmullins.com) ([circlecube](https://circlecube.com))
 
 WordPress Engineer at Bluehost focused on building tools for customers and contributing to WordPress.
 
@@ -16,8 +16,8 @@ Away from the keyboard, I have enjoyed traveling as a digital nomad family for t
 - ***Overview***
 - [The Case For A Personal Site](case-for-personal-site.md)
 - [Helpful Blocks For A Personal Site](helpful-blocks.md)
- - [Cover](cover-block.md)
  - [Business Card](business-card-block.md)
+ - [Cover](cover-block.md)
  - [LinkTree](linktree-block.md)
  - [Social Links](social-links-block.md)
  - [Resume Experience](resume-experience-job-block.md)

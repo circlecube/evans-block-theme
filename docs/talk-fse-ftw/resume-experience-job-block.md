@@ -1,10 +1,15 @@
 ## Resume Experience Block
-These are custom blocks as a variation on columns block. They have some preset values and layout, but didn't require a full on custom block. 
+A resume or cv is an important part of many personal sites. I know many have made career advancements thanks to their personal site.
+
+These are custom blocks as a variation on columns block. They have some preset values and layout, but didn't require a full on custom block. The danger of using a block variation is that the block could be changed (unless you lock it).
 
 ### Block description
 This block appears to be a full on block, but it's only a [block variation](https://github.com/circlecube/evans-block-theme/blob/main/block-variations/resume-experience.js) of a column block. It has preset some innerblocks to keep formatting consistent. There are also some custom [styles](https://github.com/circlecube/evans-block-theme/blob/main/block-variations/_resume-experience.scss) in place.
 
 ![resume experience job block demo](images/job-block.png)
+
+# Block Inserter
+![block resume experience inserter](images/block-resume-experience.png)
 
 ### Block markup
 ```
@@ -42,8 +47,8 @@ View an example with other [blocks](https://evanmullins.com/blocks/#experience).
 - [Overview](overview.md)
 - [The Case For A Personal Site](case-for-personal-site.md)
 - [Helpful Blocks For A Personal Site](helpful-blocks.md)
- - [Cover](cover-block.md)
  - [Business Card](business-card-block.md)
+ - [Cover](cover-block.md)
  - [LinkTree](linktree-block.md)
  - [Social Links](social-links-block.md)
  - ***Resume Experience***

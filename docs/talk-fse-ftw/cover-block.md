@@ -30,8 +30,8 @@ https://evanmullins.com/cover/
 - [Overview](overview.md)
 - [The Case For A Personal Site](case-for-personal-site.md)
 - [Helpful Blocks For A Personal Site](helpful-blocks.md)
- - ***Cover***
  - [Business Card](business-card-block.md)
+ - ***Cover***
  - [LinkTree](linktree-block.md)
  - [Social Links](social-links-block.md)
  - [Resume Experience](resume-experience-job-block.md)

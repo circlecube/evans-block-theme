@@ -6,6 +6,8 @@ View the block source code in the theme at [evans-block-theme/blocks/skills](htt
 
 ![resume skills block demo](images/skills-block.png)
 
+# Block Inserter
+![block resume skills inserter](images/block-resume-skills.png)
 ### Block markup
 ```
 <!-- wp:evans-block-theme/skills {"label":"Here's a skill","level":"stars here"} -->
@@ -24,8 +26,8 @@ View an example with other [blocks](https://evanmullins.com/blocks/#skills).
 - [Overview](overview.md)
 - [The Case For A Personal Site](case-for-personal-site.md)
 - [Helpful Blocks For A Personal Site](helpful-blocks.md)
- - [Cover](cover-block.md)
  - [Business Card](business-card-block.md)
+ - [Cover](cover-block.md)
  - [LinkTree](linktree-block.md)
  - [Social Links](social-links-block.md)
  - [Resume Experience](resume-experience-job-block.md)
