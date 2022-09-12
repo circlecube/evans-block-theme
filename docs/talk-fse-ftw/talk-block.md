@@ -1,5 +1,8 @@
 ## Talk Block
-A custom block (built into the theme) to display a talk with details and format links to the talk, slides and video. 
+A custom block (built into the theme) to display a talk with details and format links to the talk, slides and video. If you enjoy speaking or teaching at conferences or meetups, you can easily list them on your personal site.
+
+Before blocks, I listed speaking engagements on my site and was tired of messing with the formatting over time, so I figured I could make a custom block to take care of all the formatting and make it easy to maintain and keep the content organized and elegant. 
+
 
 ### Block description
 View the block source code in the theme at [evans-block-theme/blocks/talk](https://github.com/circlecube/evans-block-theme/tree/main/blocks/talk).

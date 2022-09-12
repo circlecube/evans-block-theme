@@ -1,5 +1,6 @@
 ## Thank you for tuning in
 :heart:
+Win big with your own FSE-enabled personal site!
 
 ### Questions or feedback? 
 Thanks for stopping by and congrats on making it to the end! Contact me on my personal site: [evanmullins.com](https://evanmullins.com) and find examples of [these blocks](https://evanmullins.com/blocks/) an more ;)

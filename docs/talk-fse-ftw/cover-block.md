@@ -1,5 +1,8 @@
 ## Cover Block
-Simply use a cover block to give some easy nicely formatted content on your site. It's a simple and modern way to start a site with a landing page or panel.
+The core Cover block is a quick attractive block to throw together. It's a simple and modern way to start a site with a landing page or panel to welcome visitors to your site. This layout want easily possible before blocks, it's so nice to have the ability to craft this with just a few clicks now. 
+
+Simply use a cover block to give some easy nicely formatted content on your site. Plus, there are many ways to make it more attractive than placing my mug on it like this example.
+
 
 ### Block description
 Cover block with a background image and some simple content.

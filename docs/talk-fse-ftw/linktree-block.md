@@ -1,7 +1,7 @@
 ## LinkTree Block Pattern
-This block pattern is modeled after the popular linktree design pattern where social users can only share a single link in their bio. They will create a page containing all their links and point people to that page. If you want a personal site but use social media primarily, this could be a nice block to showcase on or even as your site.
+This block pattern is modeled after the popular/infamous linktree design pattern where social users can only share a single link in their bio. They will create a page containing all their links and point people to that page. If you want a personal site but use social media primarily, this could be a nice block to showcase on or even as your whole site.
 
-See link in bio.
+Find this block pattern in the pattern directory at [linktree block pattern](https://wordpress.org/patterns/pattern/linktree/).
 
 ### Block details
 Cover block with background containing a rounded square image (optional), followed by a  spacer and buttons.

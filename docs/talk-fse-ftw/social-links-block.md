@@ -1,5 +1,7 @@
 ## Social Links Block
-A social block is a handy way to include a lot of links to other social networks. This is great for a personal site if you want visitors to be able to find you elsewhere online. As a bonus we can add custom classes to the links and then add css styles for custom background images to keep the link styles nice, recognizable and consistent. Here's an [example of the css rule](https://github.com/circlecube/evans-block-theme/blob/main/src/_footer.scss#L40).
+The core social block is a handy way to include a lot of links to other social networks. This is great for a personal site if you want visitors to be able to find you elsewhere online. 
+
+When linking to a site with no built-in icon we can add one. Add custom classes to the links and then add css styles for custom background images to keep the link styles nice, recognizable and consistent. Here's an [example of the css rule](https://github.com/circlecube/evans-block-theme/blob/main/src/_footer.scss#L40).
 
 ### Block description
 This is included as a template part so it is easy to drop in anywhere. The template part includes only a social links block with a slew of social links added. Note that it is also included in the site footer as a template part.

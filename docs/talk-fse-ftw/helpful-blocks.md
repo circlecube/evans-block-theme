@@ -10,6 +10,7 @@ Along with blocks there are many updates to WordPress that help us keep our site
 - Easy blocks for content.
 
 # The Blocks
+Full Site Editing in WordPress brings us organized content blocks that we can use on our personal site. This gets us to a more aesthetic look with more accessible and usable content. 
 - [Business Card](business-card-block.md)
 - [Cover](cover-block.md)
 - [LinkTree](linktree-block.md)

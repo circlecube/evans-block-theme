@@ -1,5 +1,5 @@
 ## Get Inspired
-Take a look at some personal sites from the WordPress community: 
+When making a site (or even if you have one already) look around at what others are doing. Take a look at some personal sites from the WordPress community: 
 
 - [evanmullins.com](https://evanmullins.com/)
 - [aarondcampbell.com](https://aarondcampbell.com/)
@@ -43,7 +43,7 @@ Take a look at some personal sites from the WordPress community:
 - [johnblackbourn.com](https://johnblackbourn.com/about/)
 - [ryelle.codes](https://ryelle.codes/)
 
-Have a site to share? Please send it to me or make a PR to add.
+So here’s your homework: go check some of these out - get inspired. Have a site to share? Please send it to me or make a PR to add.
 
 ### Contents
 - [Overview](overview.md)

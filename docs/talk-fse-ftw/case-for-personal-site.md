@@ -1,6 +1,7 @@
 ## The Case For A Personal Site
 
-I believe strongly that everyone should have their own personal website.
+I believe strongly that everyone should have their own personal website. Go to [my personal site, evanmullins.com](https://evanmullins.com) (see what I did there?) for links to block examples and code samples. I made a [block based theme](https://github.com/circlecube/evans-block-theme) to show some block examples for this talk. Some are core blocks, some block patterns and some custom blocks in the theme. The [theme](https://github.com/circlecube/evans-block-theme) is open source on GitHub and includes these notes.
+
 ### Do you have a personal website?
 Chances are you may have a site already. Sadly, many links I follow to personal sites end with a 404. Is your site cared for?
 - Is it WordPress?
@@ -46,7 +47,7 @@ There are many many reasons to have a personal site. I believe that though there
  - Use your name (or handle) if you can.
  - Find something that is available (and affordable) but also simple.
  - TLDs: .com .blog .me .site .online .xyz … (or get creative with a vanity url)
-- Remove Barriers to keeping it current
+- Remove Barriers to keeping it current (the How)
  - Find your focus and start there
  - Start small and iterate
  - Enable auto updates

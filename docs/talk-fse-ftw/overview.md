@@ -1,9 +1,10 @@
 ## `FSE FTW` WCUS 2022
 
-Personal branding and online presence are made easier with full site editing!
- 
+Having a personal website and managing your online presence is made easier with WordPress full site editing!
+
 Do you have a personal site? Is it attractive? Is it current? No more excuses, full site editing makes it too easy not to put your best website out for the world to see. Put up a photo with a few links, a resume, recent projects, a collection of your favorite social media, a simple linktree, etc. We’ll go through some fun examples and see some blocks and block patterns to quickly get up and running.
 
+We'll talk about why you should have a personal sitea free things to consider and some helpful blocks for inspiration!
 ## About me
 
 I'm [Evan Mullins](https://evanmullins.com) ([circlecube](https://circlecube.com))

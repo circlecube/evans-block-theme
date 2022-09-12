@@ -1,5 +1,5 @@
 ## Business Card Block Pattern
-Block pattern to resemble a business card. Meant for a quick easy setup for a personal site. Create a site, make a single page template your home page and add this block pattern. Done.
+Websites are the new business card right? You could literally do just this and have a personal site - the plus side here is it’s easy to keep current! Here's a block pattern to resemble a business card. Meant for a quick easy setup for a personal site. Create a site, make a single page template your home page and add this block pattern. Done.
 
 ### Block description
 Cover block with a background image. With a group block containing a header and paragraph and social links.

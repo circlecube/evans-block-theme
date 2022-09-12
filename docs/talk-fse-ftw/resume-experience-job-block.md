@@ -1,7 +1,7 @@
 ## Resume Experience Block
-A resume or cv is an important part of many personal sites. I know many have made career advancements thanks to their personal site.
+An important part of many personal sites is an online resume. I know many have made career advancements thanks to their personal site. 
 
-These are custom blocks as a variation on columns block. They have some preset values and layout, but didn't require a full on custom block. The danger of using a block variation is that the block could be changed (unless you lock it).
+This are custom blocks as a variation on columns block. They have some preset values and layout, but didn't require a full on custom block. The danger of using a block variation is that the block could be changed (unless you lock it).
 
 ### Block description
 This block appears to be a full on block, but it's only a [block variation](https://github.com/circlecube/evans-block-theme/blob/main/block-variations/resume-experience.js) of a column block. It has preset some innerblocks to keep formatting consistent. There are also some custom [styles](https://github.com/circlecube/evans-block-theme/blob/main/block-variations/_resume-experience.scss) in place.
