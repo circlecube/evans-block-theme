@@ -10,14 +10,15 @@ Along with blocks there are many updates to WordPress that help us keep our site
 - Easy blocks for content.
 
 # The Blocks
-Full Site Editing in WordPress brings us organized content blocks that we can use on our personal site. This gets us to a more aesthetic look with more accessible and usable content. 
-- [Business Card](business-card-block.md)
-- [Cover](cover-block.md)
-- [LinkTree](linktree-block.md)
-- [Social Links](social-links-block.md)
-- [Resume Experience](resume-experience-job-block.md)
-- [Resume Skills](resume-skills-block.md)
-- [Talk](talk-block.md)
+Full Site Editing in WordPress brings us organized content blocks that we can use on our personal site. This gets us to a more aesthetic look with more accessible and usable content. There are plenty of blocks out there ready to go and even more patterns ready to insert and run with but there are still some gaps. Plenty of custom blocks fill in some of the gaps, and for some of these we don’t have to develop custom blocks or even stress with complex block layouts just find a pattern. 
+
+- [Business Card](business-card-block.md) - Block Pattern
+- [Cover](cover-block.md) - Core Block
+- [LinkTree](linktree-block.md) - Block Pattern
+- [Social Links](social-links-block.md) - Core Block
+- [Resume Experience](resume-experience-job-block.md) - Custom Block Variation
+- [Resume Skills](resume-skills-block.md) - Custom Block
+- [Talk](talk-block.md) - Custom Block
 - Contact form
 - Testimonial
 - Portfolio
